@@ -1,4 +1,4 @@
-# GEOLOCATE - IP Geolocation tool by Brandon Anderson
+# GEOLOCATE - IP Geolocation tool by TEMPLAR
 # Simple geolocator using curl, nc, jq, and pygmentize. 
 #
 #
