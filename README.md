@@ -4,11 +4,21 @@
 #
 # 
 #
-#   INSTALLATION INSTRUCTIONS:
+#   EASY INSTALLATION INSTRUCTIONS:
+#       git clone https://github.com/phantompacket/geolocate
+#       cd geolocate
+#       chmod +x install.sh
+#       ./install.sh
 #
 #
-#     apt-get install jq && pip install pygments
-#     cp 
+#
+#
+#   MANUAL INSTALLATION INSTRUCTIONS:
+#       git clone https://github.com/phantompacket/geolocate
+#       cd geolocate
+#       apt-get install jq && pip install pygments
+#       chmod +x geolocate
+#       cp geolocate /usr/bin
 #
 #
 #
