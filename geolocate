@@ -10,6 +10,6 @@ echo
 else
 echo   GEOLOCATOR - By Brandon Anderson
 echo
-curl https://ipvigilante.com/$1 | jq . | tr -d '"{},' | sed "1,3d"| colrm 1 4 | pygmentize
+curl -s https://ipvigilante.com/$1 | jq . | tr -d '"{},' | sed "1,3d"| colrm 1 4 | pygmentize
 echo
 fi
