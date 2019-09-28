@@ -15,3 +15,14 @@
 # apt-get install jq && pip install pygments
 # chmod +x geolocate
 # cp geolocate /usr/bin
+#
+# HOW TO USE:
+# Once the installation has finished, you can run the geolocate command from any directory.
+# Use the geolocate command by itself to get information on your own Public IP
+# You can geolocate any IP address by typing is as a command-line argument after the geolocate command itself
+# 
+# EXAMPLE:
+# geolocate
+# OR
+# geolocate 216.58.193.206
+
