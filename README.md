@@ -18,8 +18,8 @@
 # apt-get install jq && pip install pygments
 # chmod +x geolocate
 # cp geolocate /usr/bin
-# (OPTIONAL: python -m pip install requirements.txt     #INSTALLS 'pygments' USING PYTHON2)
-# (OPTIONAL: python3 -m pip install requirements.txt    #INSTALLS 'pygments' USING PYTHON3)
+# OPTIONAL: python -m pip install requirements.txt     #INSTALL 'pygments' USING PYTHON2
+# OPTIONAL: python3 -m pip install requirements.txt    #INSTALL 'pygments' USING PYTHON3
 #
 #
 # HOW TO USE:
