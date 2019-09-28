@@ -2,7 +2,7 @@
 
 if [ "$1" == "" ]
 then
-echo   GEOLOCATOR - By Brandon Anderson
+echo   GEOLOCATOR - By TEMPLAR
 echo
 public_ip=`printf "GET / HTTP/1.1\r\nHost: z\r\n\r\n" | nc 104.20.17.242 80 | grep "Your IP" | colrm 1 55 | tr -d "</span>"`
 curl -s https://ipvigilante.com/$public_ip | jq . | tr -d '"{},' | sed "1,3d"| colrm 1 4 | pygmentize
