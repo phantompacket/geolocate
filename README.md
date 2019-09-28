@@ -1,5 +1,5 @@
 # GEOLOCATE - IP Geolocation tool by Brandon Anderson
-# Simple geolocator using curl, nc, jq, and pygmentize 
+# Simple geolocator using curl, nc, jq, and pygmentize. 
 #
 #
 # EASY INSTALLATION INSTRUCTIONS:
@@ -18,8 +18,8 @@
 #
 # HOW TO USE:
 # Once the installation has finished, you can run the geolocate command from any directory.
-# Use the geolocate command by itself to get information on your own Public IP
-# You can geolocate any IP address by typing is as a command-line argument after the geolocate command itself
+# Use the geolocate command by itself to get information on your own Public IP.
+# You can geolocate any IP address by typing is as a command-line argument after the geolocate command.
 # 
 # EXAMPLE:
 # geolocate
