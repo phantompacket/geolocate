@@ -2,6 +2,9 @@
 # Simple geolocator using curl, nc, jq, and pygmentize. 
 #
 #
+# Requirements: curl, nc, jq, pygments
+#
+#
 # EASY INSTALLATION INSTRUCTIONS:
 # git clone https://github.com/phantompacket/geolocate
 # cd geolocate
@@ -15,6 +18,9 @@
 # apt-get install jq && pip install pygments
 # chmod +x geolocate
 # cp geolocate /usr/bin
+# (OPTIONAL: python -m pip install requirements.txt     #INSTALLS 'pygments' USING PYTHON2)
+# (OPTIONAL: python3 -m pip install requirements.txt    #INSTALLS 'pygments' USING PYTHON3)
+#
 #
 # HOW TO USE:
 # Once the installation has finished, you can run the geolocate command from any directory.
