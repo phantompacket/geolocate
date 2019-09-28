@@ -8,7 +8,7 @@ public_ip=`printf "GET / HTTP/1.1\r\nHost: z\r\n\r\n" | nc 104.20.17.242 80 | gr
 curl -s https://ipvigilante.com/$public_ip | jq . | tr -d '"{},' | sed "1,3d"| colrm 1 4 | pygmentize
 echo
 else
-echo   GEOLOCATOR - By Brandon Anderson
+echo   GEOLOCATOR - By TEMPLAR
 echo
 curl -s https://ipvigilante.com/$1 | jq . | tr -d '"{},' | sed "1,3d"| colrm 1 4 | pygmentize
 echo
